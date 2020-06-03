@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/idSNo"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#D70D887C"/>
+
+    <TextView
+        android:id="@+id/idName"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B4179A8F"
+        android:text="Ira Nurjanah"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/idAge"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B4179A8F"
+        android:text="21"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/idStb"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B4179A8F"
+        android:text="13020170250"
+        android:textStyle="normal"/>
+
+
+</LinearLayout>
